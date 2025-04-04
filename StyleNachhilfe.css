@@ -1,0 +1,155 @@
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+/* Header */
+header {
+    background-color: #478bc7; /* Royal blue */
+    color: #f5deb3; /* Light beige */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Logo-Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Abstand zwischen Logo und Text */
+}
+
+.logo-image {
+    height: 60px; /* Größe des Logos */
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f5deb3; /* Gleiche Farbe wie im Header */
+}
+
+
+header nav a {
+    color: #f5deb3;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    color: #ffdd57;
+}
+
+/* Allgemeine Sektionen */
+.section-padding {
+    padding: 60px 20px;
+}
+
+#about, #services, #contact {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Services Container */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;  /* Flexibles Layout für mobile Ansicht */
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Einzelne Service-Box */
+.service {
+    text-align: center;
+    width: 100%;
+    max-width: 300px; /* Maximal 300px für bessere Darstellung */
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Service-Bilder */
+.service-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Kontakt-Sektion - Auffällige Farbe */
+#contact {
+    background-color:#ffffff;  /* Gelb, damit es heraussticht */
+    color: #333; /* Dunkler Text für bessere Lesbarkeit */
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+
+/* Kontakt-Logo Styling */
+.contact-logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-logo {
+    width: 120px; /* Größe des Logos */
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 0.9; /* Leicht transparent für eleganten Look */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #478bc7;
+    color: #f5deb3;
+    font-size: 1.1em;
+}
+.footer-links a.footer-cookies,
+.footer-links a.footer-datenschutz,
+.footer-links a.footer-contact {
+    color: #030303; /* Schwarz */
+    text-decoration: none; /* Standardmäßig nicht unterstrichen */
+    cursor: pointer;
+}
+
+.footer-links a.footer-cookies:hover,
+.footer-links a.footer-datenschutz:hover,
+.footer-links a.footer-contact:hover {
+    color: #589ec7; /* Blaue Farbe bei Hover */
+}
+
+
+#cookies-info,
+#datenschutz-info {
+    color: #fffafa; /* gewünschte Farbe */
+    font-weight: bold; /* Text fett */
+}
+
+/* Überschriften separat gestalten */
+#cookies-info h2,
+#datenschutz-info h2 {
+    color: #478bc7; /* Blauton der Webseite */
+    font-weight: bold; /* Überschrift zusätzlich fett */
+}
